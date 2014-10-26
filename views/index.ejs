@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/css/bootstrap.min.css' />
+    <link rel='stylesheet' href='/css/dropzone.css' />
+    <link rel='stylesheet' href='/css/main.css' />
+  </head>
+  <body>
+    <div class='container'>
+      <div class="row" style="margin-top:100px">
+        <div class='col-md-6 well'>
+          <div id='dropzone'>
+          
+          </div>
+        </div>
+        <div class='col-md-6 well'>
+          <div id='canvas'>
+          
+          </div>
+        </div>
+      </div>
+      Объем фигуры: <input type="text" id="vol" class="form-control" style="width:100px; display:inline" readonly> куб.см.
+    </div>
+  <script src="js/jquery-1.10.2.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/three.min.js"></script>
+  <script src="js/STLLoader.js"></script>
+  <script src="js/TrackballControls.js"></script>
+  <script src="js/dropzone.min.js"></script>
+  <script src="js/main.js"></script>
+  </body>
+</html>
